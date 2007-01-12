@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<document>
+  <properties>
+    <title>Support</title>
+    <author email="jkuhnert@apache.org">Jesse Kuhnert</author>
+  </properties>
+  <body>
+    <section name="Support">
+        <p>
+            Below is a list of companies and consultants who provide commercial support, 
+            in one form or another, for Tapestry. Being mentioned here is not an indication 
+            of official "endorsement" by the Apache Software Foundation, but is instead 
+            provided as a public service. This list is in no way a complete listing of the 
+            many organizations providing either free or for cost support for ASF projects. 
+            If you would like to be added to this list, or removed, please send a message to
+            the <a href="mail-lists.html">dev mailing list</a>.
+        </p>
+        
+        <section name="Tapestry Support Network">
+            <p>
+                <a href="http://tapestrysupport.com">http://tapestrysupport.com</a>
+            </p>
+            <p>
+                Operated by Howard Lewis Ship, the creator of Tapestry. 
+            </p>
+        </section>
+        
+    </section>
+  </body>
+</document>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<document>
+  <properties>
+    <title>News</title>
+    <author email="ahuegen@apache.org">Achim Huegen</author>
+  </properties>
+  <body>
+    <section name="General">
+      <p>Keep up to date with the latest events in the HiveMind world.</p>
+
+      <subsection name="New Site">
+        <p> New Site</p>
+
+        </p>
+      </subsection>
+
+     </section>
+  </body>
+</document>

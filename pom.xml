@@ -1,0 +1,121 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.apache.hivemind</groupId>
+    <artifactId>hivemind-site</artifactId>
+    <version>2.0.0</version>
+    <packaging>pom</packaging>
+    <name>HiveMind</name>
+    <description>Services and configuration micro kernel.</description>
+    <inceptionYear>2005</inceptionYear>
+    <url>http://hivemind.apache.org</url>
+
+    <licenses>
+        <license>
+            <name>Apache Software License 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <organization>
+        <name>Apache Software Foundation</name>
+        <url>http://www.apache.org</url>
+    </organization>
+
+    <issueManagement>
+        <system>jira</system>
+        <url>http://issues.apache.org/jira/browse/HIVEMIND</url>
+    </issueManagement>
+
+    <scm>
+        <connection>scm:svn:http://svn.apache.org/repos/asf/hivemind/</connection>
+        <developerConnection>
+            scm:svn:https://svn.apache.org/repos/asf/hivemind/
+        </developerConnection>
+        <url>http://svn.apache.org/viewvc/hivemind/</url>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-site-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+    <reporting>
+        <excludeDefaults>true</excludeDefaults>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <reportSets>
+                    <reportSet>
+                        <reports>
+                            <report>cim</report>
+                            <report>issue-tracking</report>
+                            <report>mailing-list</report>
+                            <report>license</report>
+                            <report>project-team</report>
+                            <report>scm</report>
+                            <report>index</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </reporting>
+
+    <mailingLists>
+        <mailingList>
+            <name>HiveMind User List</name>
+            <subscribe>user-subscribe@hivemind.apache.org</subscribe>
+            <unsubscribe>user-unsubscribe@hivemind.apache.org</unsubscribe>
+            <archive>http://mail-archives.apache.org/mod_mbox/hivemind-user/</archive>
+            <otherArchives>
+                <otherArchive>http://www.nabble.com/Hivemind---User-f324.html</otherArchive>
+            </otherArchives>
+        </mailingList>
+        <mailingList>
+            <name>HiveMind Developer List</name>
+            <subscribe>dev-subscribe@hivemind.apache.org</subscribe>
+            <unsubscribe>dev-unsubscribe@hivemind.apache.org</unsubscribe>
+            <archive>http://mail-archives.apache.org/mod_mbox/hivemind-dev/</archive>
+            <otherArchives>
+                <otherArchive>http://www.nabble.com/HiveMind---Dev-f323.html</otherArchive>
+            </otherArchives>
+        </mailingList>
+        <mailingList>
+            <name>HiveMind Commits List</name>
+            <subscribe>commits-subscribe@hivemind.apache.org</subscribe>
+            <unsubscribe>commits-unsubscribe@hivemind.apache.org</unsubscribe>
+            <archive>http://mail-archives.apache.org/mod_mbox/hivemind-commits/</archive>
+        </mailingList>
+    </mailingLists>
+
+    <developers>
+    </developers>
+
+    <distributionManagement>
+        <site>
+            <id>hivemind</id>
+            <url>scpexe://people.apache.org/www/hivemind.apache.org/</url>
+        </site>
+        <repository>
+            <id>hivemind-repo</id>
+            <url>scpexe://apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url>
+        </repository>
+        <snapshotRepository>
+            <id>hivemind-snapshot-repo</id>
+            <url>scpexe://apache.org/www/people.apache.org/repo/m2-snapshot-repository</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+</project>
