@@ -11,6 +11,7 @@ maven-skin/src/main/resources/images/collapsed.gif -text
 maven-skin/src/main/resources/images/expanded.gif -text
 maven-skin/src/main/resources/images/h3.jpg -text
 maven-skin/src/main/resources/images/h5.jpg -text
+maven-skin/src/main/resources/images/hivemind_banner.png -text
 maven-skin/src/main/resources/images/icon_error_sml.gif -text
 maven-skin/src/main/resources/images/icon_info_sml.gif -text
 maven-skin/src/main/resources/images/icon_success_sml.gif -text
@@ -20,6 +21,6 @@ src/site/apt/download.apt -text
 src/site/resources/css/site.css -text
 src/site/resources/doap_Hivemind.rdf -text
 src/site/site.xml -text
+src/site/xdoc/hivemind2.xml -text
 src/site/xdoc/index.xml -text
 src/site/xdoc/news.xml -text
-src/site/xdoc/support.xml -text

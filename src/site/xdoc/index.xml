@@ -2,16 +2,10 @@
 <document>
     <properties>
         <title>Welcome to HiveMind</title>
-        <author email="jkuhnert@apache.org">Jesse Kuhnert</author>
+        <author email="ahuegen@apache.org">Achim Huegen</author>
     </properties>
     <body>
         <section name="Welcome to HiveMind">
-            <strong>
-                <a href="#Third Party Components">Third Party Components</a> -- <a href="#HiveMind Extensions">Third
-                    Party Extensions</a> -- <a href="#IDE Integration">IDE Integration</a>
-            </strong>
-
-            <br/>
 
             <div id="downloadbox">
                 <h5>Get HiveMind 1.1.1</h5>
@@ -22,263 +16,74 @@
 
                 <br/>
 
-
                 <!-- Leave the last few news items here -->
 
                 <h5>New!</h5>
                 <ul style="list-style:none">
-                    <li><a href="news.html#Jumpstart 0.8">Jumpstart v0.8 released</a></li>
-                    <li><a href="news.html#Enjoying Web Development with HiveMind updated for T4.1"> EWDT updated for T4.1</a></li>
-                    <li><a href="news.html#HandyHiveMind, IntelliJ Plugin"> HandyHiveMind IntelliJ Plugin</a></li>
-                    <li><a href="news.html#HiveMind 101 book released"> HiveMind 101 book released </a></li>
-                    <li><a href="news.html#HiveMind NetBeans interview"> HiveMind NetBeans interview </a></li>
+                    <li><a href="news.html#New Site">New Site</a></li>
+                    <li><a href="news.html#HiveMind - Now Top Level">HiveMind - Now Top Level Project</a></li>
                 </ul>
                 
             </div>
-            <p> HiveMind is an open-source framework for creating dynamic, robust, highly scalable web applications in
-                Java. HiveMind complements and builds upon the standard Java Servlet API, and so it works in any servlet
-                container or application server. </p>
-            <p> HiveMind divides a web application into a set of pages, each constructed from components. This provides
-                a consistent structure, allowing the HiveMind framework to assume responsibility for key concerns such
-                as URL construction and dispatch, persistent state storage on the client or on the server, user input
-                validation, localization/internationalization, and exception reporting. Developing HiveMind applications
-                involves creating HTML templates using plain HTML, and combining the templates with small amounts of
-                Java code using (optional) XML descriptor files. In HiveMind, you create your application in terms of
-                objects, and the methods and properties of those objects -- and specifically not in terms of URLs and
-                query parameters. HiveMind brings true object oriented development to Java web applications. </p>
-            <p> HiveMind is specifically designed to make creating new components very easy, as this is a routine
-                approach when building applications. The distribution includes over fifty components, ranging from
-                simple output components all the way up to complex data grids and tree navigators. </p>
-            <p> HiveMind is architected to scale from tiny applications all the way up to massive applications
-                consisting of hundreds of individual pages, developed by large, diverse teams. HiveMind easily
-                integrates with any kind of backend, including J2EE, HiveMind and Spring. </p>
-            <p>HiveMind is released under the Apache Software Licence 2.0.</p>
-            <p>
-                <h4>Key Principles</h4>
-            </p>
-            <p>HiveMind is organized around four key principles:</p>
-            <ul>
-                <li>
-                    <b>Simplicity</b> - web applications shouldn't be rocket science! </li>
-                <li>
-                    <b>Consistency</b> - what works in pages should work in components. What works in small applications
-                    should work in large applications. Different developers should find similar solutions to similar
-                    problems. </li>
-                <li>
-                    <b>Efficiency</b> - applications should be performant and scalable </li>
-                <li>
-                    <b>Feedback</b> - when things go wrong, the framework should not get in the way; in fact, it should
-                    provide useful diagnostics </li>
-            </ul>
-            <p> These four principles drive the meta-principle: <em>The simplest choice should be the correct
-                choice.</em>
-            </p>
-            <br/>
-            <br/>
-            <p> The decisions you make early in a project should not come back later to haunt you. </p>
-            <p> We have found that a component approach to web development is the best way of realizing these
-                principles. Structuring the framework and your application around components makes it possible to move
-                all the boring plumbing code out of your application and into the framework. You write less code, you
-                write simpler code, sometimes you write <em>no</em> code. HiveMind picks up the slack. </p>
+            <p><strong>HiveMind</strong> is a services and configuration microkernel:</p>
+							<ul>
+								<li><strong>Services</strong>: HiveMind
+									services are <em>POJOs</em> (Plain Old Java Objects) that can be easily
+									accessed and combined. Each service ideally defines a Java interface it
+									implements (but this is no longer mandatory). HiveMind takes care of instantiating and configuring each
+									service just as necessary. HiveMind lets services collaborate with each
+									other via dependency injection.</li>
+								<li> <strong>Configuration</strong>: 
+									HiveMind allows you to provide complex configuration data to your
+									services in a format <em>you</em> define. HiveMind will integrate the
+									contributions of such data from multiple modules and convert it all into
+									data objects for you. HiveMind configurations allow for powerful,
+									data-driven solutions which combine seemlessly with the service
+									architecture.</li>
+							</ul>
+							<p>In HiveMind, a service is an implementation of a Java interface. Unlike
+								other SOAs (Service Oriented Architectures, such as a SOAP, or EJBs),
+								HiveMind is explicitly about combining Java code within a single JVM.
+								HiveMind uses a descriptor to describe
+								different services, their lifecycles, and how they are combined. HiveMind
+								takes care of thread-safe, just-in-time creation of singleton service
+								objects so your code doesn't have to.</p>
         </section>
 
-        <section name="Third Party Components">
+        <section name="Related projects and HiveMind Extensions">
 
-            <p> Additional libraries of HiveMind components by third parties. </p>
+            <p> This section lists related projects and HiveMind extensions that have been created by third parties. </p>
 
             <table>
                 <tr>
                     <td>
-                        <a href="http://beanform.sourceforge.net">BeanForm</a>
+                        <a href="http://tapestry.apache.org">Tapestry</a>
                     </td>
-                    <td> All-in-one, flexible bean editor. </td>
+                    <td> Web framework that uses HiveMind under the covers. </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="http://sotacs.sourceforge.net/home/index.html">Sotacs</a>
+                        <a href="http://hivetranse.sourceforge.net">HiveMind Utilities</a>
                     </td>
                     <td>
-                        <strong>So</strong>me more <strong>Ta</strong>pestry <strong>C</strong>omponent<strong>s</strong>, including menus,
-                        Ajax text fields and dynamic images
+                       Repository of HiveMind extensions for the support of transaction handling, security, remoting, events and rich clients.
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="http://tacos.sourceforge.net">Tacos</a>
+                        <a href="http://crispy.sourceforge.net">Crispy</a>
                     </td>
-                    <td> Suite of Ajax-enabled components. </td>
+                    <td>Client for Remote Invocation for different kinds of services via proxies.
+                       Offers an extension for the invocation of HiveMind services.</td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="http://hivemind-jsmenu.sourceforge.net">HiveMind Menu Component</a>
+                        <a href="http://mule.codehaus.org">Mule</a>
                     </td>
-                    <td> HiveMind version of <a href="http://jscook.sourceforge.net/JSCookMenu/">JSCookMenu</a>. </td>
-                </tr>
-    
-                <tr>
-                    <td>
-                        <a href="http://tapfx.sourceforge.net/">TapFX</a>
-                    </td>
-                    <td> A set of dynamic, skinnable, DHTML enabled, client-side state preserving web components. </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://equalitylearning.org/Tassel/app">
-                            Tassel
-                        </a>
-                    </td>
-                    <td>
-                        HiveMind Searchable Selection of Components -- Searchable index of HiveMind components
-                    </td>
+                    <td>Enterprise Service Bus (ESB) messaging framework that supports HiveMind as object container.</td>
                 </tr>
             </table>
         </section>
 
-        <section name="HiveMind Extensions">
-
-            <p> This section lists common HiveMind extensions that have been created by third parties. </p>
-
-            <table>
-                <tr>
-                    <td>
-                        <a href="http://raibledesigns.com/wiki/Wiki.jsp?page=AppFuse">AppFuse</a>
-                    </td>
-                    <td> "Kickstart" application development that pre-integrates HiveMind with Spring, Hibernate and
-                        several other libraries. </td>
-                </tr>
-
-                <tr>
-                    <td>
-                        <a href="http://www.thelabllc.com">Cognition</a>
-                    </td>
-                    <td> Eclipse plugin that enables graphical creation of database-driven HiveMind applications. </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://honeycomb.javaforge.com/">Honeycomb</a>
-                    </td>
-                    <td> Hibernate integration, supports transaction-per-request and transaction-per-conversation. </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://files.doublenegative.com.au/jumpstart/">Jumpstart</a>
-                    </td>
-                    <td>
-                        Like AppFuse, but specific to HiveMind: a CRUD application outline waiting to be filled in with
-                        your own domain classes
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://howardlewisship.com/hivemind-javaforge/hivemind-spring/">hivemind-spring</a>
-                    </td>
-                    <td>Easy integration with Spring; inject Spring beans directly into pages.</td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://www.erinors.com/product/tapdoc/">TapDoc</a>
-                    </td>
-                    <td>Generate component documentation automatically.</td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://www.carmanconsulting.com/tapernate">Tapernate</a>
-                    </td>
-                    <td> Hibernate integration; manages transactions and persistent entity objects. </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://www.carmanconsulting.com/hivemind-acegi">hivemind-acegi</a>
-                    </td>
-                    <td> Integration with the <a href="http://www.acegisecurity.org/">Acegi</a> security framework.
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://howardlewisship.com/hivemind-javaforge/hivemind-flash/">hivemind-flash</a>
-                    </td>
-                    <td> Short term property storage modelled on Rail's "flash". </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://howardlewisship.com/hivemind-javaforge/hivemind-prop/">hivemind-prop</a>
-                    </td>
-                    <td> Non-reflective property access; fast but limited replacement for "ognl:". </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="http://howardlewisship.com/hivemind-javaforge/hivemind-testng/">hivemind-testng</a>
-                    </td>
-                    <td> Base classes for testing HiveMind components with JDK 1.5. </td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>
-                            <a href="http://www.trailsframework.org/">Trails</a>
-                        </strong>
-                    </td>
-                    <td> Domain driven application development environment, modeled on Rails and Naked Objects. </td>
-                </tr>
-            </table>
-        </section>
-
-        <section name="IDE Integration">
-
-            <p> These open-source, third party extensions allow you to more easily develop your HiveMind applications
-                using popular IDEs. </p>
-
-            <table>
-                <tr>
-                    <td> Eclipse </td>
-                    <td>
-                        <a href="http://www.thelabllc.com">Cognition</a>
-                    </td>
-                    <td> Visual builder for database applications, driven by database object model. </td>
-                </tr>
-                <tr>
-                    <td/>
-                    <td>
-                        <a href="http://ezingbuilder.sourceforge.net/cms/">eZing Builder</a>
-                    </td>
-                    <td> Visual editor for HTML with HiveMind extensions. </td>
-                </tr>
-                <tr>
-                    <td/>
-                    <td>
-                        <a href="http://spindle.sourceforge.net">Spindle</a>
-                    </td>
-                    <td> Integrated editting and simple refactoring. Stable version is HiveMind 3 only. </td>
-                </tr>
-                <tr>
-                    <td/>
-                    <td>
-                        <a href="http://hivemindpalette.sourceforge.net">Palette</a>
-                    </td>
-                    <td> Extends Spindle with palette-based drag and drop editting. </td>
-                </tr>
-                <tr>
-                    <td>IDEA</td>
-                    <td>
-                        <a href="http://tapidea.javaforge.com">TapIDEA</a>
-                    </td>
-                    <td>Based on part of the Spindle code base.</td>
-                </tr>
-                <tr>
-                    <td/>
-                    <td><a href="http://handyedit.com/index.html">HandyHiveMind</a></td>
-                    <td>
-                        Helpful completions and navigations in the HTML template, and a Create HiveMind component wizard.
-                    </td>
-                </tr>
-                <tr>
-                    <td>NetBeans</td>
-                    <td>
-                        <a href="https://nbhivemindsupport.dev.java.net/">nbhivemindsupport</a>
-                    </td>
-                    <td>Wizards for creating new HiveMind files and elements within files.</td>
-                </tr>
-            </table>
-
-        </section>
     </body>
 </document>

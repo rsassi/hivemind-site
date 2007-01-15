@@ -9,9 +9,15 @@
       <p>Keep up to date with the latest events in the HiveMind world.</p>
 
       <subsection name="New Site">
-        <p> New Site</p>
-
+        <p> The HiveMind site has experienced a major redesign as preparation
+          for the oncoming first release of HiveMind 2
         </p>
+      </subsection>
+
+      <subsection name="HiveMind - Now Top Level">
+         <p> HiveMind is now a top-level Apache project. The new home page is 
+             <a href="http://hivemind.apache.org">http://hivemind.apache.org</a>.
+         </p>
       </subsection>
 
      </section>
