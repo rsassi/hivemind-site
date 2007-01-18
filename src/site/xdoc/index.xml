@@ -25,14 +25,21 @@
                 </ul>
                 
             </div>
-            <p><strong>HiveMind</strong> is a services and configuration microkernel:</p>
-							<ul>
+            <p><strong>HiveMind</strong> is an services and configuration microkernel.
+             Its features are also referred to as Inversion of Control (IoC) Container
+             or Lightweight Container.</p>
+             <p>The adoption of HiveMind in an application ensures the use of 
+             certain design principles which improve encapsulation, modularization,
+             testability and reusability.</p>
+						 <ul>
 								<li><strong>Services</strong>: HiveMind
 									services are <em>POJOs</em> (Plain Old Java Objects) that can be easily
 									accessed and combined. Each service ideally defines a Java interface it
-									implements (but this is no longer mandatory). HiveMind takes care of instantiating and configuring each
+									implements (this is not mandatory). HiveMind takes care of the life cycle
+									of services.  It instantiates and finalizes services and configures each
 									service just as necessary. HiveMind lets services collaborate with each
-									other via dependency injection.</li>
+									other via dependency injection, so that the service code itself
+									is released from the task of looking up dependencies.</li>
 								<li> <strong>Configuration</strong>: 
 									HiveMind allows you to provide complex configuration data to your
 									services in a format <em>you</em> define. HiveMind will integrate the
@@ -41,13 +48,6 @@
 									data-driven solutions which combine seemlessly with the service
 									architecture.</li>
 							</ul>
-							<p>In HiveMind, a service is an implementation of a Java interface. Unlike
-								other SOAs (Service Oriented Architectures, such as a SOAP, or EJBs),
-								HiveMind is explicitly about combining Java code within a single JVM.
-								HiveMind uses a descriptor to describe
-								different services, their lifecycles, and how they are combined. HiveMind
-								takes care of thread-safe, just-in-time creation of singleton service
-								objects so your code doesn't have to.</p>
         </section>
 
         <section name="Related projects and HiveMind Extensions">
