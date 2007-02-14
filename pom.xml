@@ -109,12 +109,12 @@
             <url>scpexe://people.apache.org/www/hivemind.apache.org/hivemind2</url>
         </site>
         <repository>
-            <id>hivemind-repo</id>
-            <url>scpexe://apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url>
+            <id>apache-repo</id>
+            <url>scpexe://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url>
         </repository>
         <snapshotRepository>
-            <id>hivemind-snapshot-repo</id>
-            <url>scpexe://apache.org/www/people.apache.org/repo/m2-snapshot-repository</url>
+            <id>apache-snapshot-repo</id>
+            <url>scpexe://people.apache.org/www/people.apache.org/repo/m2-snapshot-repository</url>
         </snapshotRepository>
     </distributionManagement>
 
