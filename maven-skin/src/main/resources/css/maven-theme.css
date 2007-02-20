@@ -8,7 +8,7 @@ body {
     padding: 0px;
 }
 
-td,select,input,li {
+td,select,input {
     font-family: Verdana, Helvetica, Arial, sans-serif;
     font-size: 12px;
     color: #333333;
@@ -141,7 +141,10 @@ table.bodyTable tr.b {
 
 .source {
     border: 1px solid #999;
-    overflow: auto
+    overflow: auto;
+
+    background-color: #e6e6fa;
+
 }
 
 dt {
@@ -259,7 +262,7 @@ DIV#banner {
 
 .info strong, .warn strong {
     background: #6888B0 url(../images/icon_info_sml.gif) left center no-repeat;
-    background-position: 0.2em; 
+    background-position: 0.2em;
     display: block;
     width: inherit;
     color: #E5E5E5;
@@ -284,11 +287,88 @@ DIV#banner {
 }
 
 code {
-    border: 1px dotted #aaa;
-    background: #efefef;
-    padding: 1px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 110%;
 }
 
 #leftColumn,#navcolumn {
     background-color: #F8F8F8;
 }
+
+.note, .warning, .fixme {
+
+  border: solid black 1px;
+
+  margin: 1em 3em;
+
+}
+
+.warning .label {
+
+  background: #C00;
+
+  color: white;
+
+  font-weight: bold;
+
+  padding: 5px 10px;
+
+}
+
+.warning .content {
+
+  background: #FFF0F0;
+
+  color: black;
+
+  line-height: 120%;
+
+  font-size: 90%;
+
+  padding: 5px 10px;
+
+}
+
+.note .label {
+
+  background: #369;
+
+  color: white;
+
+  font-weight: bold;
+
+  padding: 5px 10px;
+
+}
+
+.note .content {
+
+  background: #F0F0FF;
+
+  color: black;
+
+  line-height: 120%;
+
+  font-size: 90%;
+
+  padding: 5px 10px;
+}
+
+.codefrag {
+
+  font-family: "Courier New", Courier, monospace;
+
+  font-size: 110%;
+
+}
+
+
+.xleft {
+  float:right;
+}
+
+.xright {
+  float:left;
+}
+
+
