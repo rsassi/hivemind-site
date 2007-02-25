@@ -21,6 +21,5 @@ src/site/apt/download.apt -text
 src/site/resources/css/site.css -text
 src/site/resources/doap_Hivemind.rdf -text
 src/site/site.xml -text
-src/site/xdoc/hivemind2.xml -text
 src/site/xdoc/index.xml -text
 src/site/xdoc/news.xml -text

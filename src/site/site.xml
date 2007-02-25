@@ -28,14 +28,13 @@
         <menu name="Quick Links">
             <item name="Home" href="/index.html"/>
             <item name="Download" href="/download.html"/>
-            <item name="Wiki" href="http://wiki.apache.org/hivemind/"/>
-          <!--  <item name="Wiki" href="http://cwiki.apache.org/HIVEMIND2/"/> -->
+            <item name="Old Wiki" href="http://wiki.apache.org/hivemind/"/>
+            <item name="New Wiki" href="http://cwiki.apache.org/HIVEMIND2/"/> 
             <item name="News" href="/news.html"/>
         </menu>
         <menu name="Versions">
             <item name="HiveMind 1.1 (active)" href="http://hivemind.apache.org/hivemind1"/>
-            <item name="HiveMind 2 (unreleased)" href="/hivemind2.html"/>
-<!--            <item name="HiveMind 2 (unreleased)" href="http://hivemind.apache.org/hivemind2"/> -->
+            <item name="HiveMind 2 (alpha)" href="http://hivemind.apache.org/hivemind2"/>
         </menu>
         ${reports} 
     </body>

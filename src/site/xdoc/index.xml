@@ -5,7 +5,7 @@
         <author email="ahuegen@apache.org">Achim Huegen</author>
     </properties>
     <body>
-        <section name="Welcome to HiveMind">
+        <section name="Welcome to HiveMind 2">
 
             <div id="downloadbox">
                 <h5>Get HiveMind 1.1.1</h5>
@@ -15,11 +15,20 @@
                     </a> HiveMind 1.1.1 </p>
 
                 <br/>
+                
+                <h5>Get HiveMind 2.0-alpha-1</h5>
+                <p>
+                    <a href="download.html">
+                        <img valign="top" src="images/folder-open.gif" border="0" alt="" title="download"/> Download
+                    </a> HiveMind 2.0-alpha-1 </p>
+
+                <br/>
 
                 <!-- Leave the last few news items here -->
 
                 <h5>New!</h5>
                 <ul style="list-style:none">
+                    <li><a href="news.html#First alpha release of HiveMind 2">First alpha release of HiveMind 2</a></li>
                     <li><a href="news.html#New Site">New Site</a></li>
                     <li><a href="news.html#HiveMind - Now Top Level">HiveMind - Now Top Level Project</a></li>
                 </ul>
