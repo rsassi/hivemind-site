@@ -6,12 +6,12 @@ Achim Huegen
 11 January 2007
  ------
 
-HiveMind is distributed in several formats for your convenience.
-
-You will be prompted for a mirror - if the file is not found on yours, please be patient, as it may take 24
-hours to reach all mirrors.
-
-HiveMind is distributed under the {{{http://hivemind.apache.org/license.html} Apache License, version 2.0}}.
+	HiveMind is distributed in several formats for your convenience.
+	
+	You will be prompted for a mirror - if the file is not found on yours, please be patient, as it may take 24
+	hours to reach all mirrors.
+	
+	HiveMind is distributed under the {{{http://hivemind.apache.org/license.html} Apache License, version 2.0}}.
 
 Download HiveMind 1.1.1 [stable]
 
@@ -30,12 +30,12 @@ Download HiveMind 2.0-alpha1 [alpha]
 *-------------------------+---------+----------+-----------+
 |                         | Mirrors | Checksum | Signature |
 *-------------------------+---------+----------+-----------+
-| HiveMind 2.0-alpha-1-bin binary (tar.gz)      | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-bin.tar.gz} hivemind-2.0-alpha-1-bin.tar.gz}} | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-bin.tar.gz.md5} hivemind-2.0-alpha-1-bin.tar.gz.md5}} | - | 
+| HiveMind 2.0-alpha-1-bin binary (tar.gz)      | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-bin.tar.gz} hivemind-2.0-alpha-1-bin.tar.gz}} | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-bin.tar.gz.md5} hivemind-2.0-alpha-1-bin.tar.gz.md5}} | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-bin.tar.gz.asc} hivemind-2.0-alpha-1-bin.tar.gz.asc}} | 
 *-------------------------+---------+----------+-----------+
-| HiveMind 2.0-alpha-1-bin binary (zip)         | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-bin.zip} hivemind-2.0-alpha-1-bin.zip}} | {{{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-bin.zip.md5} hivemind-2.0-alpha-1-bin.zip.md5}} | - | 
+| HiveMind 2.0-alpha-1-bin binary (zip)         | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-bin.zip} hivemind-2.0-alpha-1-bin.zip}} | {{{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-bin.zip.md5} hivemind-2.0-alpha-1-bin.zip.md5}} | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-bin.zip.asc} hivemind-2.0-alpha-1-bin.zip.asc}} | 
 *-------------------------+---------+----------+-----------+
-| HiveMind 2.0-alpha-1-src source (tar.gz)      | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-src.tar.gz} hivemind-2.0-alpha-1-src.tar.gz}} | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-src.tar.gz.md5} hivemind-2.0-alpha-1-src.tar.gz.md5}} | - | 
+| HiveMind 2.0-alpha-1-src source (tar.gz)      | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-src.tar.gz} hivemind-2.0-alpha-1-src.tar.gz}} | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-src.tar.gz.md5} hivemind-2.0-alpha-1-src.tar.gz.md5}} | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-src.tar.gz.asc} hivemind-2.0-alpha-1-src.tar.gz.asc}} | 
 *-------------------------+---------+----------+-----------+
-| HiveMind 2.0-alpha-1-src source (zip)         | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-src.zip} hivemind-2.0-alpha-1-src.zip}} | {{{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-src.zip.md5} hivemind-2.0-alpha-1-src.zip.md5}} | - | 
+| HiveMind 2.0-alpha-1-src source (zip)         | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-src.zip} hivemind-2.0-alpha-1-src.zip}} | {{{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-src.zip.md5} hivemind-2.0-alpha-1-src.zip.md5}} | {{{http://www.apache.org/dyn/closer.cgi/hivemind/hivemind-2.0-alpha-1-src.zip.asc} hivemind-2.0-alpha-1-src.zip.asc}} | 
 *-------------------------+---------+----------+-----------+
 
