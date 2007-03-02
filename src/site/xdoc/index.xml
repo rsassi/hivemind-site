@@ -5,7 +5,7 @@
         <author email="ahuegen@apache.org">Achim Huegen</author>
     </properties>
     <body>
-        <section name="Welcome to HiveMind 2">
+        <section name="Welcome to HiveMind">
 
             <div id="downloadbox">
                 <h5>Get HiveMind 1.1.1</h5>
